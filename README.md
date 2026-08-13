@@ -1,4 +1,4 @@
-# Emmanuel's Paradise 👌😎 An Nginx Docker Static webapp
+# Emmanuel's Paradise 👌😎 
 
 Here is a minimalistic static web app built and containerized with Nginx and Docker. It has an option to edit the contents without having to rebuild the image. 
 
