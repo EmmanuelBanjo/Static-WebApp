@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - "8081:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html
+      - ./about.html:/usr/share/nginx/html/about.html
+      - ./contact.html:/usr/share/nginx/html/contact.html
+      - ./css:/usr/share/nginx/html/css
+      - ./js:/usr/share/nginx/html/js
